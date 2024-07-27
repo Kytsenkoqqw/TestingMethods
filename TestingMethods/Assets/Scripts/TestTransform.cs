@@ -11,6 +11,7 @@ public class TestTransform : MonoBehaviour
     void Start()
     {
         Render = GetComponent<Renderer>();
+        print(transform.childCount);
     }
 
     // Update is called once per frame
